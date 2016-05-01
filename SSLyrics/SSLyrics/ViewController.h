@@ -12,7 +12,6 @@
 @interface ViewController : NSViewController
 
 @property (retain) NSTimer *timer;
-@property (nonatomic, assign) NSInteger songID;
 @property (unsafe_unretained) IBOutlet NSTextView *lyrics;
 
 -(void)updateTrackLyrics;
