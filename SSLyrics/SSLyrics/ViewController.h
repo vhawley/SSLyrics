@@ -13,6 +13,7 @@
 
 @property (retain) NSTimer *timer;
 @property (unsafe_unretained) IBOutlet NSTextView *lyrics;
+@property (weak) IBOutlet NSTextField *titleLabel;
 
 -(void)updateTrackLyrics;
 

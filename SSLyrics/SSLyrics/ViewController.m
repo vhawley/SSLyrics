@@ -15,8 +15,9 @@
 
     if ([iTunes isRunning]) {
         iTunesTrack *track = [iTunes currentTrack];
-        NSLog(@"%@ - %@", track.name, track.artist);
+        NSString *title = [NSString stringWithFormat:@"%@ - %@", track.name, track.artist];
         [_lyrics setString:track.lyrics];
+        [_titleLabel setStringValue:title];
     }
 }
 

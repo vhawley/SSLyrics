@@ -676,19 +676,19 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="D4W-4q-toX">
-                                <rect key="frame" x="20" y="20" width="360" height="160"/>
+                                <rect key="frame" x="20" y="20" width="360" height="134"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="gtY-eg-u9p">
-                                    <rect key="frame" x="0.0" y="0.0" width="360" height="160"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="360" height="134"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="ddg-mX-Hog">
-                                            <rect key="frame" x="0.0" y="0.0" width="360" height="160"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="360" height="134"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="360" height="160"/>
+                                            <size key="minSize" width="360" height="134"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="360" height="160"/>
+                                            <size key="minSize" width="360" height="134"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -699,20 +699,31 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="tRh-Pn-iPo">
-                                    <rect key="frame" x="345" y="0.0" width="15" height="160"/>
+                                    <rect key="frame" x="345" y="0.0" width="15" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fpg-ZJ-OwD">
+                                <rect key="frame" x="178" y="162" width="46" height="18"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="rRI-lJ-CIH">
+                                    <font key="font" metaFont="systemBold" size="14"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="D4W-4q-toX" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="1cf-yI-YLn"/>
                             <constraint firstAttribute="trailing" secondItem="D4W-4q-toX" secondAttribute="trailing" constant="20" id="EDP-4m-9KR"/>
                             <constraint firstAttribute="bottom" secondItem="D4W-4q-toX" secondAttribute="bottom" constant="20" id="NhB-pI-8uX"/>
                             <constraint firstItem="D4W-4q-toX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="UQs-ms-OcB"/>
+                            <constraint firstItem="D4W-4q-toX" firstAttribute="top" secondItem="Fpg-ZJ-OwD" secondAttribute="bottom" constant="8" id="evX-Gq-7pK"/>
+                            <constraint firstItem="Fpg-ZJ-OwD" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="kh8-VM-qyJ"/>
+                            <constraint firstItem="Fpg-ZJ-OwD" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="q9t-Xh-p7F"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="lyrics" destination="ddg-mX-Hog" id="Vnf-7k-zGb"/>
+                        <outlet property="titleLabel" destination="Fpg-ZJ-OwD" id="2Nk-rw-aBX"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
