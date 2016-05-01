@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F45F1671CD69B2D00CC5364"
+               BlueprintIdentifier = "4F2131701CD6A13700838402"
                BuildableName = "SSLyrics.app"
                BlueprintName = "SSLyrics"
                ReferencedContainer = "container:SSLyrics.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F45F1781CD69B2E00CC5364"
+               BlueprintIdentifier = "4F2131861CD6A13700838402"
                BuildableName = "SSLyricsTests.xctest"
                BlueprintName = "SSLyricsTests"
                ReferencedContainer = "container:SSLyrics.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F45F1831CD69B2E00CC5364"
+               BlueprintIdentifier = "4F2131911CD6A13700838402"
                BuildableName = "SSLyricsUITests.xctest"
                BlueprintName = "SSLyricsUITests"
                ReferencedContainer = "container:SSLyrics.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F45F1671CD69B2D00CC5364"
+            BlueprintIdentifier = "4F2131701CD6A13700838402"
             BuildableName = "SSLyrics.app"
             BlueprintName = "SSLyrics"
             ReferencedContainer = "container:SSLyrics.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F45F1671CD69B2D00CC5364"
+            BlueprintIdentifier = "4F2131701CD6A13700838402"
             BuildableName = "SSLyrics.app"
             BlueprintName = "SSLyrics"
             ReferencedContainer = "container:SSLyrics.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4F45F1671CD69B2D00CC5364"
+            BlueprintIdentifier = "4F2131701CD6A13700838402"
             BuildableName = "SSLyrics.app"
             BlueprintName = "SSLyrics"
             ReferencedContainer = "container:SSLyrics.xcodeproj">

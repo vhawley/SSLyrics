@@ -7,64 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F45F16C1CD69B2D00CC5364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45F16B1CD69B2D00CC5364 /* AppDelegate.swift */; };
-		4F45F16E1CD69B2D00CC5364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45F16D1CD69B2D00CC5364 /* ViewController.swift */; };
-		4F45F1701CD69B2D00CC5364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F45F16F1CD69B2D00CC5364 /* Assets.xcassets */; };
-		4F45F1731CD69B2D00CC5364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F45F1711CD69B2D00CC5364 /* Main.storyboard */; };
-		4F45F17E1CD69B2E00CC5364 /* SSLyricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45F17D1CD69B2E00CC5364 /* SSLyricsTests.swift */; };
-		4F45F1891CD69B2E00CC5364 /* SSLyricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F45F1881CD69B2E00CC5364 /* SSLyricsUITests.swift */; };
+		4F2131761CD6A13700838402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2131751CD6A13700838402 /* AppDelegate.m */; };
+		4F2131791CD6A13700838402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2131781CD6A13700838402 /* main.m */; };
+		4F21317C1CD6A13700838402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F21317B1CD6A13700838402 /* ViewController.m */; };
+		4F21317E1CD6A13700838402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F21317D1CD6A13700838402 /* Assets.xcassets */; };
+		4F2131811CD6A13700838402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21317F1CD6A13700838402 /* Main.storyboard */; };
+		4F21318C1CD6A13700838402 /* SSLyricsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F21318B1CD6A13700838402 /* SSLyricsTests.m */; };
+		4F2131971CD6A13700838402 /* SSLyricsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2131961CD6A13700838402 /* SSLyricsUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F45F17A1CD69B2E00CC5364 /* PBXContainerItemProxy */ = {
+		4F2131881CD6A13700838402 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F45F1601CD69B2D00CC5364 /* Project object */;
+			containerPortal = 4F2131691CD6A13700838402 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F45F1671CD69B2D00CC5364;
+			remoteGlobalIDString = 4F2131701CD6A13700838402;
 			remoteInfo = SSLyrics;
 		};
-		4F45F1851CD69B2E00CC5364 /* PBXContainerItemProxy */ = {
+		4F2131931CD6A13700838402 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4F45F1601CD69B2D00CC5364 /* Project object */;
+			containerPortal = 4F2131691CD6A13700838402 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F45F1671CD69B2D00CC5364;
+			remoteGlobalIDString = 4F2131701CD6A13700838402;
 			remoteInfo = SSLyrics;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F45F1681CD69B2D00CC5364 /* SSLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F45F16B1CD69B2D00CC5364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F45F16D1CD69B2D00CC5364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F45F16F1CD69B2D00CC5364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F45F1721CD69B2D00CC5364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F45F1741CD69B2D00CC5364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F45F1791CD69B2E00CC5364 /* SSLyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F45F17D1CD69B2E00CC5364 /* SSLyricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLyricsTests.swift; sourceTree = "<group>"; };
-		4F45F17F1CD69B2E00CC5364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F45F1841CD69B2E00CC5364 /* SSLyricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLyricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F45F1881CD69B2E00CC5364 /* SSLyricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLyricsUITests.swift; sourceTree = "<group>"; };
-		4F45F18A1CD69B2E00CC5364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F45F1961CD69B5A00CC5364 /* iTunes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
-		4F45F1971CD69B7F00CC5364 /* SSLyrics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSLyrics-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F2131711CD6A13700838402 /* SSLyrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLyrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2131741CD6A13700838402 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F2131751CD6A13700838402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F2131781CD6A13700838402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F21317A1CD6A13700838402 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F21317B1CD6A13700838402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F21317D1CD6A13700838402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2131801CD6A13700838402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F2131821CD6A13700838402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2131871CD6A13700838402 /* SSLyricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLyricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F21318B1CD6A13700838402 /* SSLyricsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLyricsTests.m; sourceTree = "<group>"; };
+		4F21318D1CD6A13700838402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2131921CD6A13700838402 /* SSLyricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLyricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2131961CD6A13700838402 /* SSLyricsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLyricsUITests.m; sourceTree = "<group>"; };
+		4F2131981CD6A13700838402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2131A41CD6A15200838402 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F45F1651CD69B2D00CC5364 /* Frameworks */ = {
+		4F21316E1CD6A13700838402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1761CD69B2E00CC5364 /* Frameworks */ = {
+		4F2131841CD6A13700838402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1811CD69B2E00CC5364 /* Frameworks */ = {
+		4F21318F1CD6A13700838402 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,54 +77,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F45F15F1CD69B2D00CC5364 = {
+		4F2131681CD6A13700838402 = {
 			isa = PBXGroup;
 			children = (
-				4F45F16A1CD69B2D00CC5364 /* SSLyrics */,
-				4F45F17C1CD69B2E00CC5364 /* SSLyricsTests */,
-				4F45F1871CD69B2E00CC5364 /* SSLyricsUITests */,
-				4F45F1691CD69B2D00CC5364 /* Products */,
+				4F2131731CD6A13700838402 /* SSLyrics */,
+				4F21318A1CD6A13700838402 /* SSLyricsTests */,
+				4F2131951CD6A13700838402 /* SSLyricsUITests */,
+				4F2131721CD6A13700838402 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4F45F1691CD69B2D00CC5364 /* Products */ = {
+		4F2131721CD6A13700838402 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F45F1681CD69B2D00CC5364 /* SSLyrics.app */,
-				4F45F1791CD69B2E00CC5364 /* SSLyricsTests.xctest */,
-				4F45F1841CD69B2E00CC5364 /* SSLyricsUITests.xctest */,
+				4F2131711CD6A13700838402 /* SSLyrics.app */,
+				4F2131871CD6A13700838402 /* SSLyricsTests.xctest */,
+				4F2131921CD6A13700838402 /* SSLyricsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F45F16A1CD69B2D00CC5364 /* SSLyrics */ = {
+		4F2131731CD6A13700838402 /* SSLyrics */ = {
 			isa = PBXGroup;
 			children = (
-				4F45F1961CD69B5A00CC5364 /* iTunes.h */,
-				4F45F1971CD69B7F00CC5364 /* SSLyrics-Bridging-Header.h */,
-				4F45F16B1CD69B2D00CC5364 /* AppDelegate.swift */,
-				4F45F16D1CD69B2D00CC5364 /* ViewController.swift */,
-				4F45F16F1CD69B2D00CC5364 /* Assets.xcassets */,
-				4F45F1711CD69B2D00CC5364 /* Main.storyboard */,
-				4F45F1741CD69B2D00CC5364 /* Info.plist */,
+				4F2131A41CD6A15200838402 /* iTunes.h */,
+				4F2131741CD6A13700838402 /* AppDelegate.h */,
+				4F2131751CD6A13700838402 /* AppDelegate.m */,
+				4F21317A1CD6A13700838402 /* ViewController.h */,
+				4F21317B1CD6A13700838402 /* ViewController.m */,
+				4F21317D1CD6A13700838402 /* Assets.xcassets */,
+				4F21317F1CD6A13700838402 /* Main.storyboard */,
+				4F2131821CD6A13700838402 /* Info.plist */,
+				4F2131771CD6A13700838402 /* Supporting Files */,
 			);
 			path = SSLyrics;
 			sourceTree = "<group>";
 		};
-		4F45F17C1CD69B2E00CC5364 /* SSLyricsTests */ = {
+		4F2131771CD6A13700838402 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F45F17D1CD69B2E00CC5364 /* SSLyricsTests.swift */,
-				4F45F17F1CD69B2E00CC5364 /* Info.plist */,
+				4F2131781CD6A13700838402 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F21318A1CD6A13700838402 /* SSLyricsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F21318B1CD6A13700838402 /* SSLyricsTests.m */,
+				4F21318D1CD6A13700838402 /* Info.plist */,
 			);
 			path = SSLyricsTests;
 			sourceTree = "<group>";
 		};
-		4F45F1871CD69B2E00CC5364 /* SSLyricsUITests */ = {
+		4F2131951CD6A13700838402 /* SSLyricsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4F45F1881CD69B2E00CC5364 /* SSLyricsUITests.swift */,
-				4F45F18A1CD69B2E00CC5364 /* Info.plist */,
+				4F2131961CD6A13700838402 /* SSLyricsUITests.m */,
+				4F2131981CD6A13700838402 /* Info.plist */,
 			);
 			path = SSLyricsUITests;
 			sourceTree = "<group>";
@@ -129,13 +142,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F45F1671CD69B2D00CC5364 /* SSLyrics */ = {
+		4F2131701CD6A13700838402 /* SSLyrics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F45F18D1CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyrics" */;
+			buildConfigurationList = 4F21319B1CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyrics" */;
 			buildPhases = (
-				4F45F1641CD69B2D00CC5364 /* Sources */,
-				4F45F1651CD69B2D00CC5364 /* Frameworks */,
-				4F45F1661CD69B2D00CC5364 /* Resources */,
+				4F21316D1CD6A13700838402 /* Sources */,
+				4F21316E1CD6A13700838402 /* Frameworks */,
+				4F21316F1CD6A13700838402 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -143,69 +156,68 @@
 			);
 			name = SSLyrics;
 			productName = SSLyrics;
-			productReference = 4F45F1681CD69B2D00CC5364 /* SSLyrics.app */;
+			productReference = 4F2131711CD6A13700838402 /* SSLyrics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F45F1781CD69B2E00CC5364 /* SSLyricsTests */ = {
+		4F2131861CD6A13700838402 /* SSLyricsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F45F1901CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyricsTests" */;
+			buildConfigurationList = 4F21319E1CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyricsTests" */;
 			buildPhases = (
-				4F45F1751CD69B2E00CC5364 /* Sources */,
-				4F45F1761CD69B2E00CC5364 /* Frameworks */,
-				4F45F1771CD69B2E00CC5364 /* Resources */,
+				4F2131831CD6A13700838402 /* Sources */,
+				4F2131841CD6A13700838402 /* Frameworks */,
+				4F2131851CD6A13700838402 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F45F17B1CD69B2E00CC5364 /* PBXTargetDependency */,
+				4F2131891CD6A13700838402 /* PBXTargetDependency */,
 			);
 			name = SSLyricsTests;
 			productName = SSLyricsTests;
-			productReference = 4F45F1791CD69B2E00CC5364 /* SSLyricsTests.xctest */;
+			productReference = 4F2131871CD6A13700838402 /* SSLyricsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4F45F1831CD69B2E00CC5364 /* SSLyricsUITests */ = {
+		4F2131911CD6A13700838402 /* SSLyricsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F45F1931CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyricsUITests" */;
+			buildConfigurationList = 4F2131A11CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyricsUITests" */;
 			buildPhases = (
-				4F45F1801CD69B2E00CC5364 /* Sources */,
-				4F45F1811CD69B2E00CC5364 /* Frameworks */,
-				4F45F1821CD69B2E00CC5364 /* Resources */,
+				4F21318E1CD6A13700838402 /* Sources */,
+				4F21318F1CD6A13700838402 /* Frameworks */,
+				4F2131901CD6A13700838402 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F45F1861CD69B2E00CC5364 /* PBXTargetDependency */,
+				4F2131941CD6A13700838402 /* PBXTargetDependency */,
 			);
 			name = SSLyricsUITests;
 			productName = SSLyricsUITests;
-			productReference = 4F45F1841CD69B2E00CC5364 /* SSLyricsUITests.xctest */;
+			productReference = 4F2131921CD6A13700838402 /* SSLyricsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4F45F1601CD69B2D00CC5364 /* Project object */ = {
+		4F2131691CD6A13700838402 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Victor Hawley Jr.";
 				TargetAttributes = {
-					4F45F1671CD69B2D00CC5364 = {
+					4F2131701CD6A13700838402 = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					4F45F1781CD69B2E00CC5364 = {
+					4F2131861CD6A13700838402 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 4F45F1671CD69B2D00CC5364;
+						TestTargetID = 4F2131701CD6A13700838402;
 					};
-					4F45F1831CD69B2E00CC5364 = {
+					4F2131911CD6A13700838402 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 4F45F1671CD69B2D00CC5364;
+						TestTargetID = 4F2131701CD6A13700838402;
 					};
 				};
 			};
-			buildConfigurationList = 4F45F1631CD69B2D00CC5364 /* Build configuration list for PBXProject "SSLyrics" */;
+			buildConfigurationList = 4F21316C1CD6A13700838402 /* Build configuration list for PBXProject "SSLyrics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,36 +225,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 4F45F15F1CD69B2D00CC5364;
-			productRefGroup = 4F45F1691CD69B2D00CC5364 /* Products */;
+			mainGroup = 4F2131681CD6A13700838402;
+			productRefGroup = 4F2131721CD6A13700838402 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F45F1671CD69B2D00CC5364 /* SSLyrics */,
-				4F45F1781CD69B2E00CC5364 /* SSLyricsTests */,
-				4F45F1831CD69B2E00CC5364 /* SSLyricsUITests */,
+				4F2131701CD6A13700838402 /* SSLyrics */,
+				4F2131861CD6A13700838402 /* SSLyricsTests */,
+				4F2131911CD6A13700838402 /* SSLyricsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F45F1661CD69B2D00CC5364 /* Resources */ = {
+		4F21316F1CD6A13700838402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F45F1701CD69B2D00CC5364 /* Assets.xcassets in Resources */,
-				4F45F1731CD69B2D00CC5364 /* Main.storyboard in Resources */,
+				4F21317E1CD6A13700838402 /* Assets.xcassets in Resources */,
+				4F2131811CD6A13700838402 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1771CD69B2E00CC5364 /* Resources */ = {
+		4F2131851CD6A13700838402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1821CD69B2E00CC5364 /* Resources */ = {
+		4F2131901CD6A13700838402 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,51 +264,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F45F1641CD69B2D00CC5364 /* Sources */ = {
+		4F21316D1CD6A13700838402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F45F16E1CD69B2D00CC5364 /* ViewController.swift in Sources */,
-				4F45F16C1CD69B2D00CC5364 /* AppDelegate.swift in Sources */,
+				4F21317C1CD6A13700838402 /* ViewController.m in Sources */,
+				4F2131791CD6A13700838402 /* main.m in Sources */,
+				4F2131761CD6A13700838402 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1751CD69B2E00CC5364 /* Sources */ = {
+		4F2131831CD6A13700838402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F45F17E1CD69B2E00CC5364 /* SSLyricsTests.swift in Sources */,
+				4F21318C1CD6A13700838402 /* SSLyricsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F45F1801CD69B2E00CC5364 /* Sources */ = {
+		4F21318E1CD6A13700838402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F45F1891CD69B2E00CC5364 /* SSLyricsUITests.swift in Sources */,
+				4F2131971CD6A13700838402 /* SSLyricsUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4F45F17B1CD69B2E00CC5364 /* PBXTargetDependency */ = {
+		4F2131891CD6A13700838402 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F45F1671CD69B2D00CC5364 /* SSLyrics */;
-			targetProxy = 4F45F17A1CD69B2E00CC5364 /* PBXContainerItemProxy */;
+			target = 4F2131701CD6A13700838402 /* SSLyrics */;
+			targetProxy = 4F2131881CD6A13700838402 /* PBXContainerItemProxy */;
 		};
-		4F45F1861CD69B2E00CC5364 /* PBXTargetDependency */ = {
+		4F2131941CD6A13700838402 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F45F1671CD69B2D00CC5364 /* SSLyrics */;
-			targetProxy = 4F45F1851CD69B2E00CC5364 /* PBXContainerItemProxy */;
+			target = 4F2131701CD6A13700838402 /* SSLyrics */;
+			targetProxy = 4F2131931CD6A13700838402 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F45F1711CD69B2D00CC5364 /* Main.storyboard */ = {
+		4F21317F1CD6A13700838402 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4F45F1721CD69B2D00CC5364 /* Base */,
+				4F2131801CD6A13700838402 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -304,7 +317,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F45F18B1CD69B2E00CC5364 /* Debug */ = {
+		4F2131991CD6A13700838402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,11 +358,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		4F45F18C1CD69B2E00CC5364 /* Release */ = {
+		4F21319A1CD6A13700838402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,7 +398,7 @@
 			};
 			name = Release;
 		};
-		4F45F18E1CD69B2E00CC5364 /* Debug */ = {
+		4F21319C1CD6A13700838402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -395,11 +407,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vhawley.SSLyrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SSLyrics/SSLyrics-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		4F45F18F1CD69B2E00CC5364 /* Release */ = {
+		4F21319D1CD6A13700838402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -408,11 +419,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vhawley.SSLyrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SSLyrics/SSLyrics-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		4F45F1911CD69B2E00CC5364 /* Debug */ = {
+		4F21319F1CD6A13700838402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -425,7 +435,7 @@
 			};
 			name = Debug;
 		};
-		4F45F1921CD69B2E00CC5364 /* Release */ = {
+		4F2131A01CD6A13700838402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -438,7 +448,7 @@
 			};
 			name = Release;
 		};
-		4F45F1941CD69B2E00CC5364 /* Debug */ = {
+		4F2131A21CD6A13700838402 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -450,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		4F45F1951CD69B2E00CC5364 /* Release */ = {
+		4F2131A31CD6A13700838402 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -465,40 +475,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F45F1631CD69B2D00CC5364 /* Build configuration list for PBXProject "SSLyrics" */ = {
+		4F21316C1CD6A13700838402 /* Build configuration list for PBXProject "SSLyrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F45F18B1CD69B2E00CC5364 /* Debug */,
-				4F45F18C1CD69B2E00CC5364 /* Release */,
+				4F2131991CD6A13700838402 /* Debug */,
+				4F21319A1CD6A13700838402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F45F18D1CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyrics" */ = {
+		4F21319B1CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F45F18E1CD69B2E00CC5364 /* Debug */,
-				4F45F18F1CD69B2E00CC5364 /* Release */,
+				4F21319C1CD6A13700838402 /* Debug */,
+				4F21319D1CD6A13700838402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4F45F1901CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyricsTests" */ = {
+		4F21319E1CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyricsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F45F1911CD69B2E00CC5364 /* Debug */,
-				4F45F1921CD69B2E00CC5364 /* Release */,
+				4F21319F1CD6A13700838402 /* Debug */,
+				4F2131A01CD6A13700838402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		4F45F1931CD69B2E00CC5364 /* Build configuration list for PBXNativeTarget "SSLyricsUITests" */ = {
+		4F2131A11CD6A13700838402 /* Build configuration list for PBXNativeTarget "SSLyricsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F45F1941CD69B2E00CC5364 /* Debug */,
-				4F45F1951CD69B2E00CC5364 /* Release */,
+				4F2131A21CD6A13700838402 /* Debug */,
+				4F2131A31CD6A13700838402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4F45F1601CD69B2D00CC5364 /* Project object */;
+	rootObject = 4F2131691CD6A13700838402 /* Project object */;
 }

@@ -1,14 +1,13 @@
 //
-//  SSLyrics-Bridging-Header.h
+//  main.m
 //  SSLyrics
 //
 //  Created by Victor Hawley on 5/1/16.
 //  Copyright © 2016 Victor Hawley Jr. All rights reserved.
 //
 
-#ifndef Header_h
-#define Header_h
+#import <Cocoa/Cocoa.h>
 
-#import "iTunes.h"
-
-#endif /* Header_h */
+int main(int argc, const char * argv[]) {
+    return NSApplicationMain(argc, argv);
+}
