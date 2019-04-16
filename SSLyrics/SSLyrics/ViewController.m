@@ -21,13 +21,35 @@
     }
 }
 
+- (void)fireTimer {
+    [_lyrics setAlignment:NSCenterTextAlignment];
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTrackLyrics) userInfo:nil repeats:YES];
+    [self.timer fire];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [_lyrics setAlignment:NSCenterTextAlignment];
+    if (@available(macOS 10.14, *)) {
+        // check control permissions
+        OSStatus status;
+        NSAppleEventDescriptor *targetAppEventDescriptor;
+        
+        targetAppEventDescriptor = [NSAppleEventDescriptor descriptorWithBundleIdentifier:@"com.apple.iTunes"];
+        
+        // show prompt
+        status = AEDeterminePermissionToAutomateTarget(targetAppEventDescriptor.aeDesc, typeWildCard, typeWildCard, true);
+        
+        if (status == noErr) {
+            [self fireTimer];
+        }
+    } else {
+        // Fallback on earlier versions
+        [self fireTimer];
+    }
 
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTrackLyrics) userInfo:nil repeats:YES];
-    [self.timer fire];
+    
     // Do any additional setup after loading the view.
 }
 
